@@ -1,0 +1,50 @@
+.regular-customers {
+  padding-top: 94px;
+  padding-bottom: 94px;
+}
+
+.regular-customers__title {
+  font-family: "Roboto";
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.16;
+  letter-spacing: 0.03em;
+  text-align: center;
+}
+
+.regular-customers__list {
+  display: flex;
+  gap: 30px;
+  margin-top: 50px;
+  list-style: none;
+}
+
+.regular-customers__item {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.regular-customers__link {
+  color: var(--social-links-main-color);
+  padding: 16px 32px;
+  border: 1px solid var(--social-links-main-color);
+  border-radius: 4px;
+  max-width: 170px;
+  max-height: 92px;
+  transition-property: color, border-color;
+  transition-duration: var(--main-transition-duration);
+  transition-timing-function: var(--main-transtition-timing-function);
+  text-decoration: none;
+
+  &:hover,
+  &:focus {
+    color: var(--accent-color);
+    border-color: var(--accent-color);
+    outline: 0;
+  }
+}
+
+.regular-customers__icon {
+  fill: currentColor;
+}

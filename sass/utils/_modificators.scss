@@ -1,0 +1,11 @@
+.logo__second-part--inverse {
+  color: var(--white-color);
+}
+
+.nav-main__link--current {
+  color: var(--accent-color);
+
+  &::after {
+    opacity: 1;
+  }
+}
